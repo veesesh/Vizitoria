@@ -1,0 +1,161 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+
+    <title>Visitor Registration</title>
+</head>
+<body>
+    <h1>Visitor Registration</h1>
+    <form method="POST" action="/register">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" name="contact" required><br><br>
+        
+        <label for="reason">Reason for Visit:</label>
+        <input type="text" id="reason" name="reason" required><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Visitor Registration</title>
+  <!-- Font Families From Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+  <style>
+    @font-face {
+      font-family: "CeliasBold";
+      src: url(../fonts/CeliasBold.otf);
+    }
+  
+    @font-face {
+      font-family: "Celias";
+      src: url(../fonts/Celias.otf);
+    }
+  
+    html {
+      height: 100%;
+      width: 100%;
+    }
+  
+    * {
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-family: 'Belanosima', sans-serif;
+      font-family: 'Nunito', sans-serif;
+    }
+  
+    .logo {
+      font-family: CeliasBold;
+      font-size: 54px;
+      text-align: center;
+    }
+  
+    .logo span {
+      position: relative;
+    }
+  
+    .logo span:before {
+      position: absolute;
+      content: '';
+      height: .2em;
+      width: 80%;
+      bottom: -.1em;
+      z-index: -1;
+      background: #7F00FF;
+    }
+  
+    .tag-line {
+      margin-top: -15px;
+      max-width: 420px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .tag-line span {
+      color: #7F00FF;
+      font-weight: bolder;
+    }
+  
+    h1 {
+      font-family: inherit;
+    }
+  
+    main {
+      width: max-content;
+      margin: auto;
+    }
+  
+    main h1 {
+      margin-bottom: 0px;
+    }
+  
+    form {
+      margin-top: 0px;
+    }
+  
+    input {
+      margin-top: 5px;
+      border: 1px solid #212529;
+      padding: 10px;
+      width: 100%;
+      border-radius: 3px;
+      margin-bottom: -3px;
+    }
+  
+    input[type="submit"] {
+      border: none;
+      background: #7F00FF;
+      padding: .5em 2.3em;
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      border-radius: 1em;
+      font-weight: bold;
+      font-size: .9em;
+      margin-bottom: 2em;
+      margin-top: 10px;
+    }
+  
+    input[type="submit"]:hover {
+      background: #5900b3;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="logo"><span>Vizitoria</span></h1>
+    <p class="tag-line"><span>Streamline</span> , <span>Secure</span> , and <span>Impress</span>: Unleash the Power of Vizitoria, an effortless visitor management system.</p>
+  </header>
+
+  <main>
+    <h1>Visitor Registration</h1>
+    <form method="POST" action="/register">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="contact">Contact</label>
+      <input type="text" id="contact" name="contact" required><br><br>
+
+      <label for="reason">Reason for Visit</label>
+      <input type="text" id="reason" name="reason" required><br><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </main>
+</body>
+
+</html>
