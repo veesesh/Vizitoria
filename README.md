@@ -1,5 +1,5 @@
 # Vizitoria
-
+this project was built for TechTogether hackathon organised by MLH
 ## Getting Started
 
 First, run the development server:
